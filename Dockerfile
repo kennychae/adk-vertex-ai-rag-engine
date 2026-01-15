@@ -13,4 +13,5 @@ ENV PORT=8080
 EXPOSE 8080
 
 # ADK 서버 자동 실행
-CMD ["sh", "-c", "adk api_server --host 0.0.0.0 --port ${PORT}"]
+
+CMD ["sh", "-c", "adk web --host 0.0.0.0 --port ${PORT}"]
