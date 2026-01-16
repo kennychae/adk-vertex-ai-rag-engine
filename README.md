@@ -214,6 +214,7 @@ gcloud auth application-default login
 # Option 2: Use a service account key (for production or CI/CD environments)
 # Download your service account key from GCP Console and set the environment variable
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service-account-key.json
+```
 
 ## 사용법
 
